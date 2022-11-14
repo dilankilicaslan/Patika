@@ -1,0 +1,1 @@
+select *  from film where NOT length>50 AND (NOT rental_rate=2.99 AND rental_rate=4.99)
